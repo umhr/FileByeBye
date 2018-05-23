@@ -1,0 +1,52 @@
+﻿<Window x:Class="FileByeBye.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FileByeBye"
+        mc:Ignorable="d"
+        Title="FileByeBye" Height="480" Width="640" Background="#FF323232">
+    <Grid>
+        <Button x:Name="openButton" Content="Open" Margin="0,4,10,0" VerticalAlignment="Top" Click="openButton_Click" HorizontalAlignment="Right" Width="75"/>
+        <TextBlock x:Name="pathTB" Margin="10,10,90,0" TextWrapping="Wrap" Text="Path" VerticalAlignment="Top" Foreground="White" MouseUp="pathTB_MouseUp"/>
+        <Button x:Name="removeBtn" Content="Remove" Margin="0,0,10,10" VerticalAlignment="Bottom" Click="removeBtn_Click" HorizontalAlignment="Right" Width="75" IsEnabled="False"/>
+        <Label x:Name="RemoveCountLabel" Content="RemoveCount: 0" Margin="10,0,90,10" Foreground="White" Height="28" VerticalAlignment="Bottom"/>
+        <DataGrid x:Name="mainDG" Margin="0,36,0,46" AutoGenerateColumns="False" CanUserAddRows="False" Background="LightGray">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="Dir" SortMemberPath="Dir">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Label Content="{Binding Dir}" Tag="{Binding}" MouseDown="Dir_Click" Height="27" Margin="0,-6,0,0"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                
+                <DataGridTemplateColumn Header="Name" SortMemberPath="Name">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Label Content="{Binding Name}" Tag="{Binding}" MouseDown="Name_Click" Height="27" Margin="0,-6,0,0"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Header="Size" SortMemberPath="Size">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Label Content="{Binding SizeStr}" Height="27" HorizontalContentAlignment="Right" Margin="0,-6,0,0"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                
+                <DataGridTemplateColumn Header="Remove" SortMemberPath="Remove">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox Click="Remove_Click" Tag="{Binding}" IsChecked="{Binding Remove}" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="LastWriteTime" Binding="{Binding LastWriteTime}" IsReadOnly="True" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>

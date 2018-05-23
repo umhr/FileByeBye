@@ -1,0 +1,15 @@
+C:\Users\bxi5\Dropbox\private\studies\1805\FileByeBye\FileByeBye\bin\Release\FileByeBye.exe.config
+C:\Users\bxi5\Dropbox\private\studies\1805\FileByeBye\FileByeBye\bin\Release\FileByeBye.exe
+C:\Users\bxi5\Dropbox\private\studies\1805\FileByeBye\FileByeBye\bin\Release\FileByeBye.pdb
+C:\Users\bxi5\Dropbox\private\studies\1805\FileByeBye\FileByeBye\bin\Release\Microsoft.WindowsAPICodePack.dll
+C:\Users\bxi5\Dropbox\private\studies\1805\FileByeBye\FileByeBye\bin\Release\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\bxi5\Dropbox\private\studies\1805\FileByeBye\FileByeBye\obj\Release\MainWindow.g.cs
+C:\Users\bxi5\Dropbox\private\studies\1805\FileByeBye\FileByeBye\obj\Release\App.g.cs
+C:\Users\bxi5\Dropbox\private\studies\1805\FileByeBye\FileByeBye\obj\Release\FileByeBye_MarkupCompile.cache
+C:\Users\bxi5\Dropbox\private\studies\1805\FileByeBye\FileByeBye\obj\Release\FileByeBye_MarkupCompile.lref
+C:\Users\bxi5\Dropbox\private\studies\1805\FileByeBye\FileByeBye\obj\Release\MainWindow.baml
+C:\Users\bxi5\Dropbox\private\studies\1805\FileByeBye\FileByeBye\obj\Release\FileByeBye.g.resources
+C:\Users\bxi5\Dropbox\private\studies\1805\FileByeBye\FileByeBye\obj\Release\FileByeBye.Properties.Resources.resources
+C:\Users\bxi5\Dropbox\private\studies\1805\FileByeBye\FileByeBye\obj\Release\FileByeBye.csproj.GenerateResource.Cache
+C:\Users\bxi5\Dropbox\private\studies\1805\FileByeBye\FileByeBye\obj\Release\FileByeBye.exe
+C:\Users\bxi5\Dropbox\private\studies\1805\FileByeBye\FileByeBye\obj\Release\FileByeBye.pdb
